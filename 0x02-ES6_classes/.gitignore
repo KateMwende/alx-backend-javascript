@@ -1,0 +1,5 @@
+node_modules
+*main.js
+*.json
+.eslintrc.js
+babel.config.js
