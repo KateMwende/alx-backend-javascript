@@ -12,7 +12,7 @@ const Utils = {
       if (roundB == 0) {
         return 'Error';  
       }
-        return roundA / roundB;
+      return roundA / roundB;
     default:
       throw new Error('Invalid type');
     }
