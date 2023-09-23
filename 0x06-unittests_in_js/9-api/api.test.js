@@ -15,7 +15,7 @@ describe('index page testing', () => {
   it('GET / returns correct response', (done) => {
     request.get(`${api_url}/cart/4`, (_err, res, body) => {
       expect(res.statusCode).to.be.equal(200);
-      expect(body).to.be.equal('Payment methods for cart :4');
+      expect(body).to.be.equal('Payment methods for cart 4');
       done();
     });
   });
